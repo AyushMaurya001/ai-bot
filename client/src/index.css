@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root,
+#root,
+#docs-root {
+  --lightPrimaryColor: rgb(241 243 244);
+  --lightSecondaryColor: rgb(232 234 237);
+  --baseColor: rgb(6 96 223);
+  --darkPrimaryColor: rgb(24 24 24);
+  --darkSecondaryColor: rgb(31 31 31);
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background: rgba(255, 255, 255, 0.228);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* Customize the scrollbar thumb on hover */
+  background: rgba(255, 255, 255, 0.689);
+}
